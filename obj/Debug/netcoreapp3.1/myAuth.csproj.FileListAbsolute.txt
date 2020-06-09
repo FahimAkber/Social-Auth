@@ -72,3 +72,5 @@ C:\Users\DCL\Desktop\ASP.NET MVC\myAuth\obj\Debug\netcoreapp3.1\myAuth.dll
 C:\Users\DCL\Desktop\ASP.NET MVC\myAuth\obj\Debug\netcoreapp3.1\myAuth.pdb
 C:\Users\DCL\Desktop\ASP.NET MVC\myAuth\bin\Debug\netcoreapp3.1\client_secret_662821330444-kdvlb7slrji9sfrkc1bsuf1il4vm9c5f.apps.googleusercontent.com.json
 C:\Users\DCL\Desktop\ASP.NET MVC\myAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\DCL\Desktop\ASP.NET MVC\myAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\DCL\Desktop\ASP.NET MVC\myAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll

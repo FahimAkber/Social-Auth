@@ -24,7 +24,9 @@
     ".NETCoreApp,Version=v3.1": {
       "myAuth/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": "3.1.5",
           "Microsoft.AspNetCore.Authentication.Google": "3.1.4",
+          "Microsoft.AspNetCore.Authentication.MicrosoftAccount": "3.1.5",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.0",
           "Microsoft.AspNetCore.Identity.UI": "3.1.0",
@@ -320,6 +322,17 @@
           "myAuth.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication.Facebook/3.1.5": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.100.520.27105"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.Google/3.1.4": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {
@@ -329,6 +342,17 @@
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.MicrosoftAccount/3.1.5": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.100.520.27105"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.0": {},
@@ -2464,12 +2488,26 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.AspNetCore.Authentication.Facebook/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y6amKeemC/14qRm8KFinQZIESAh1pzQ6c6eWix21E/uJjr9CYsWIIr6vibmNliVR3Hw8hjq3UBudVYrYVesZww==",
+      "path": "microsoft.aspnetcore.authentication.facebook/3.1.5",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.3.1.5.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Authentication.Google/3.1.4": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-YaSqdLcLxb7+f/5LY/r8FJCyzmGx3AmGeT3zo9/TOEp4nn3xSNoIMy2Du4dmBhmr/pM6QZOoIxVwXDOxGN2lhg==",
       "path": "microsoft.aspnetcore.authentication.google/3.1.4",
       "hashPath": "microsoft.aspnetcore.authentication.google.3.1.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.MicrosoftAccount/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MV3yjzzKuhjhCBM/XX7SLfgmnb+ONbrRTZ5ZaxOqj+FodkLsd6rJfUMWKwnAQ391zWMnRHZVNDb2bKwYEUI5yA==",
+      "path": "microsoft.aspnetcore.authentication.microsoftaccount/3.1.5",
+      "hashPath": "microsoft.aspnetcore.authentication.microsoftaccount.3.1.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.0": {
       "type": "package",
